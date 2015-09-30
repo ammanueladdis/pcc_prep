@@ -21,6 +21,8 @@ If you see something like this, Python 2.7 is your default version. You should a
 
 If you have Python 3.4 or later, it's fine to start out by using the installed version. If you have Python 3.3 or earlier, it's probably worth installing Python 3.5.
 
+[top](#)
+
 <a name='python3.5'></a>Installing Python 3.5
 ---
 
@@ -47,6 +49,8 @@ Now to start a Python terminal session, you'll use the command `python3.5`:
 
 You'll use this command when you configure your text editor, and when you run programs from the terminal.
 
+[top](#)
+
 <a name='installing_geany'></a>Installing Geany
 ---
 
@@ -55,6 +59,8 @@ On Ubuntu and other systems that use the apt package manager, you can install Ge
     $ sudo apt-get install geany
 
 If this doesn't work, you can see the instructions at [http://geany.org/Download/ThirdPartyPackages/](http://geany.org/Download/ThirdPartyPackages/).
+
+[top](#)
 
 <a name='configuring_geany'></a>
 ### Configuring Geany
@@ -78,6 +84,8 @@ Next to the word *Execute*, enter the following command:
 Again, if you use a command like `python3.5`, make sure you use that command.
 
 Now you can run programs by selecting **Build>Execute**, clicking the Execute icon with a set of gears on it, or by pressing **F5**.
+
+[top](#)
 
 
 
