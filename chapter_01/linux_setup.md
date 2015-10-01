@@ -12,7 +12,7 @@ Setup Instructions: Linux
 Python is probably already installed on your system. Find out which version is your default by issuing the command `python --version`:
 
     $ python --version
-    Python 2.7.3
+    Python 2.7.6
 
 If you see something like this, Python 2.7 is your default version. You should also see if you have Python 3 installed:
 
