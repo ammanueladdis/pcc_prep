@@ -28,14 +28,13 @@ If you have Python 3.4 or later, it's fine to start out by using the installed v
 <a name='python3.5'></a>Installing Python 3.5
 ---
 
-Install Homebrew, which makes it easy to install the most recent version of Python. Start out by installing some of Apple's xcode tools:
+Install [Homebrew](http://brew.sh/), which makes it easy to install the most recent version of Python. Start out by installing some of Apple's xcode tools:
 
     $ xcode-select --install
 
 The installation may take a while, depending on the speed of your connection. Next, install Homebrew:
 
-    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
-master/install)"
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 If you run the command **brew doctor**, you can verify that the installation was successful:
 
