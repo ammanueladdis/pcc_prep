@@ -28,28 +28,30 @@ If you have Python 3.4 or later, it's fine to start out by using the installed v
 <a name='python3.5'></a>Installing Python 3.5
 ---
 
-The following instructions should work on Ubuntu, and most Debian-based systems that use the apt package manager.
+Install Homebrew, which makes it easy to install the most recent version of Python. Start out by installing some of Apple's xcode tools:
 
-Add the *deadsnakes* package, and then install Python 3.5:
+    $ xcode-select --install
 
-    $ sudo add-apt-repository ppa:fkrull/deadsnakes
-    $ sudo apt-get update
-    $ sudo apt-get install python3.5
+The installation may take a while, depending on the speed of your connection. Next, install Homebrew:
 
-You can confirm that the installation was successful:
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
+master/install)"
 
-    $ python3.5 --version
+If you run the command **brew doctor**, you can verify that the installation was successful:
+
+    $ brew doctor
+    Your system is ready to brew.
+
+Now you can install Python packages through Homebrew. To install Python 3, enter the following command:
+
+    $ brew install python3
+
+You can verify that Python 3 was installed correctly:
+
+    $ python3 --version
     Python 3.5.0
 
-Now to start a Python terminal session, you'll use the command `python3.5`:
-
-    $ python3.5
-    Python 3.5.0 (default, Sep 17 2015, 00:00:00) 
-    [GCC 4.8.4] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>>
-
-You'll use this command when you configure your text editor, and when you run programs from the terminal.
+You'll use the **python3** command when you configure your text editor, when you start a Python terminal session, and when you run programs from the terminal.
 
 [top](#)
 
@@ -58,7 +60,7 @@ You'll use this command when you configure your text editor, and when you run pr
 
 You can download an installer for Sublime Text by clicking on the OS X link at [http://www.sublimetext.com/3](http://www.sublimetext.com/3). Sublime Text has a liberal licensing policy; it's free as long as you want to use it, but the author requests that you purchase a license if you like the program and want to continue using it.
 
-After you've downloaded the installer, drag the file into your *Applications* folder.
+After you've downloaded the installer, open it and then drag the Sublime Text icon into your *Applications* folder.
 
 [top](#)
 
